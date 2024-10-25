@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(67, 60, 102);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgba(68, 58, 117, 0.959);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: lavender;
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+    font-size: 2rem;
+    margin: 70px 0;
+}
+
+.rightSection img {
+    width: 100%;
+    margin: 50px 0;
+    ;
+}
+
+.blue {
+    color: rgb(27, 196, 238);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(27, 196, 238);
+}
+
+.secondSection {
+    height: 80vh;
+    max-width: 80vw;
+    margin: auto;
+    color: rgb(27, 196, 238);
+    font-size: 1.2rem;
+}
+
+main hr {
+    border: o;
+    background-color: blue;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.secondSection .box {
+    background-color: white;
+    width: 77vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 110px;
+}
+
+.image-top {
+    width: 39px;
+    position: relative;
+    top: -55px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 50px;
+    width: 150px;
+    font-size: 30px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 50px;
+    width: 10px;
+    font-size: 16px;
+    color:#8bafc1;
+}
+.footer{
+    background-color: rgba(50, 45, 73, 0.959);
+}
+.footer{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .footer-rights{
+    
+    text-align:center;
+    color: gray;
+}
+.firstSection .btn{
+    padding: 12px;
+    background-color: rgb(67, 60, 102)
+}
